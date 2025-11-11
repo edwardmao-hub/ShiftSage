@@ -71,7 +71,7 @@ router.post("/monitor/edit/:id", ensureAuth, parkingController.updateMonitor);
 router.post("/openShift/edit/:id", ensureAuth, parkingController.updateOpenShift);
 router.post("/overtime/rank/:id", ensureAuth, parkingController.updateOvertimeBid);
 router.post("/regularShift/edit/:id", ensureAuth, parkingController.updateRegularShift);
-router.post("/regularShift/edit/:id", ensureAuth, parkingController.updateRegularShift);
+// router.post("/regularShift/edit/:id", ensureAuth, parkingController.updateRegularShift);
 //UPDATE entries
 router.post("/finalize/update", ensureAuth, parkingController.updateFinalizeHours);
 router.post("/extraOT/update", ensureAuth, parkingController.updateExtraOT);
